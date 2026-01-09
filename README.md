@@ -13,7 +13,7 @@
 
 <br>
 
-#  DroneWatch - Autonomous Decentralized Spatial Monitoring & Early‑Warning System  
+#  DroneWatch - autonomous decentralized spatial monitoring & early‑warning system  
 ### A self‑sustaining network operating without infrastructure, connectivity, servers, clouds, or navigation services
 
 DroneWatch is an autonomous system for detecting and transmitting critical events,  
