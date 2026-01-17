@@ -1,5 +1,5 @@
 <h1>
-  <img src="https://github.com/Mushatenko/DroneWatch/blob/main/logo.png?raw=true"
+  <img src="https://github.com/Mushatenko/DroneWatch/blob/main/logo.jpg?raw=true"
        width="64"
        style="vertical-align: middle; margin-right: 8px;">
   DroneWatch
