@@ -146,6 +146,28 @@ Connection takes minimal time and requires no specialized knowledge.
 - deployable in hard‑to‑reach areas.  
 
 ---
+## Comparative Overview: DroneWatch vs. Fortem DroneHunter  
+### (Architectural and System-Level Differences)
+
+| Capability Category | DroneWatch (System Architecture) | Fortem DroneHunter (Product Architecture) |
+|--------------------|----------------------------------|-------------------------------------------|
+| **System Type** | Distributed C‑UAS ecosystem (sensors + analytics + autonomous interceptor) | Autonomous interceptor with proprietary radar |
+| **Sensor Layer** | Multi‑sensor distributed mesh (acoustic, RF‑energy, thermal, optical, zero‑shot) | Single-point radar (TrueView) + onboard sensors |
+| **Network Architecture** | Fully distributed mesh with self-healing topology | Centralized radar-driven detection |
+| **Energy Model** | Solar-powered autonomous nodes, no infrastructure required | Requires powered radar units or fixed installations |
+| **Detection Philosophy** | Behavior-based zero‑shot analysis (DW‑ZSE) + multi-node correlation | Radar signature detection and tracking |
+| **Coverage Scaling** | Scales by adding low-cost autonomous nodes | Scales by adding radar units (high cost) |
+| **Low-Altitude / Terrain Coverage** | High (nodes placed in terrain shadows and low points) | Limited by radar line-of-sight |
+| **RF Resilience** | High (Silent Posture, passive detection, mesh redundancy) | Medium (radar + communication link dependency) |
+| **Autonomous Interception** | Yes (native module, onboard AI, trajectory prediction) | Yes (onboard AI) |
+| **Interception Decision Source** | Distributed: sensor node + interceptor AI | Local: interceptor + radar feed |
+| **External System Integration** | Native support for PVO / defense systems via Target Mark | API-based integration |
+| **Operational Independence** | Full autonomy (detection + decision + interception) | Requires radar infrastructure for detection |
+| **Deployment Footprint** | Minimal (solar nodes, no cabling, no towers) | Medium/High (radar units, power, mounting) |
+| **Cost of Territory Expansion** | Low (add nodes) | High (add radars) |
+| **System Survivability** | High (no single point of failure) | Medium (radar is a critical asset) |
+
+---
 
 </details>
 
